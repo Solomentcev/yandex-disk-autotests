@@ -1,0 +1,92 @@
+# =========================
+# Maven
+# =========================
+
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+out/
+
+# IntelliJ compiler output
+*.class
+
+
+# =========================
+# Java
+# =========================
+*.log
+
+hs_err_pid*
+replay_pid*
+
+
+# =========================
+# Allure
+# =========================
+
+allure-results/
+allure-report/
+
+
+# =========================
+# Environment / secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+secret/
+
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+.DS_Store?
+._*
+
+Thumbs.db
+Desktop.ini
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+
+# =========================
+# Test artifacts
+# =========================
+
+test-output/
+reports/
+screenshots/
+.allure
